@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+header{
+    width: 100%;;
+    background-color: black;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+.navbar ul li{
+    display: inline;
+    justify-content: space-evenly;
+    margin: 50px;
+    align-items: center;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+
+}
+.navbar ul li a:hover{
+    border: 1px solid gray;
+    border-radius: 3px;
+padding: 6px ;
+font-weight: bold;
+}
+
+.profile img{
+    height:60px;
+    float: right;
+    border-radius: 50%;
+    margin: 10px;
+}
+.profile img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.7s;
+}
+.profile h2{
+    color: white;
+    margin-right: 20px;
+    float: right;
+    padding-top: 20px;
+}
+.greeting{
+    background-color: rgba(128, 128, 128, 0.741);
+    text-align: center;
+    font-weight: bold;
+}
+.about{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+.about img{
+    height: 200px;
+    padding: 8px;
+}
+.about img:hover{
+    transform: scale(1.04);
+    transition-duration: 0.8s;
+}
+.about p{
+
+    padding: 5px;
+}
+.hobbies{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+.hobbies p{
+    padding: 5px;
+}
+.hobbies img{
+    height: 200px;
+     padding: 5px;
+}
+.hobbies img:hover{
+    transform: scale(1.04);
+    transition-duration: 0.8s;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.374);
+width: 100%;
+padding: 47px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact h2 h3{
+    margin: 10px;
+}
+.social img{
+    height: 50px;
+   margin: 10px;
+}
+.social img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.7s;
+}
